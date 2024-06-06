@@ -1,4 +1,4 @@
-package net.devtroika.items
+package net.devtroika.item
 
 import net.devtroika.Deepminegalactic
 import net.devtroika.block.ModBlocks

@@ -1,4 +1,4 @@
-package net.devtroika.items
+package net.devtroika.item
 
 import net.minecraft.item.FoodComponent
 

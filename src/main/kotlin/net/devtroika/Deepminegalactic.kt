@@ -1,7 +1,6 @@
 package net.devtroika
 
 import net.devtroika.block.ModBlocks
-import net.devtroika.items.ModItems
 import net.fabricmc.api.ModInitializer
 import org.slf4j.LoggerFactory
 

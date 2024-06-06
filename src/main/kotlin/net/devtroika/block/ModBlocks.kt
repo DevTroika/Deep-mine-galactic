@@ -1,7 +1,7 @@
 package net.devtroika.block
 
 import net.devtroika.Deepminegalactic
-import net.devtroika.items.ModFoodComponents
+import net.devtroika.item.ModFoodComponents
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 import net.fabricmc.fabric.api.`object`.builder.v1.block.FabricBlockSettings
 import net.minecraft.block.Block
