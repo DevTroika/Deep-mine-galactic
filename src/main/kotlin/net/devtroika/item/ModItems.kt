@@ -24,7 +24,7 @@ class ModItems {
 
         private fun registerBlockItem(name: String, block: Block): Item {
             return Registry.register(Registries.ITEM, Identifier(Deepminegalactic.MOD_ID, name),
-                BeerItem(FabricItemSettings().food(ModFoodComponents.BEER))
+                BeerItem(block, FabricItemSettings().food(ModFoodComponents.BEER))
             )
         }
 

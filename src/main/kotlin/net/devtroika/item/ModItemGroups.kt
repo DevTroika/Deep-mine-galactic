@@ -1,7 +1,6 @@
 package net.devtroika.item
 
 import net.devtroika.Deepminegalactic
-import net.devtroika.item.ModItems
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup
 import net.minecraft.item.ItemGroup
 import net.minecraft.item.ItemStack
