@@ -1,7 +1,7 @@
 package net.devtroika.item
 
 import net.devtroika.Deepminegalactic
-import net.devtroika.block.ModBlocks
+import net.devtroika.item.ModItems
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup
 import net.minecraft.item.ItemGroup
 import net.minecraft.item.ItemStack
@@ -17,10 +17,9 @@ object ModItemGroups {
         Identifier(Deepminegalactic.MOD_ID, "ruby"),
         FabricItemGroup.builder()
             .displayName(Text.translatable("itemgroup.DMG"))
-            .icon { ItemStack(ModBlocks.ModBlocks.BEER) }
+            .icon { ItemStack(ModItems.ModBlocks.BEER) }
             .entries { displayContext, entries ->
-                entries.add(ModBlocks.ModBlocks.BEER)
-                entries.add(Items.DIRT)
+                entries.add(ModItems.ModBlocks.BEER)
             }
             .build()
     )

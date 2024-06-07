@@ -1,6 +1,8 @@
 package net.devtroika
 
-import net.devtroika.block.ModBlocks
+
+import net.devtroika.item.ModItemGroups
+import net.devtroika.item.ModItems
 import net.fabricmc.api.ModInitializer
 import org.slf4j.LoggerFactory
 
@@ -11,7 +13,8 @@ object Deepminegalactic : ModInitializer {
 	override fun onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
-		ModBlocks.ModBlocks.registerModBlocks()
+		ModItemGroups.registerItemGroups()
+		ModItems.ModBlocks.registerModBlocks()
 		logger.info("Hello Fabric world!")
 	}
 }
